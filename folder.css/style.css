@@ -1,0 +1,43 @@
+
+*{
+	/*padding: 0px;*/
+	font-family: sans-serif;
+	font-size: 30px;
+	margin:0px;
+}
+:root{
+	--yellow:#d1ab31 ;
+	--green: #9eb930;
+}
+
+body{
+	/*background: red;*/
+}
+.container{
+	padding: 0px;
+	margin:auto;
+	width: 500px;
+	height: 500px;
+	background: var(--yellow);
+	border: 8px dashed #fff;
+	}
+#player{
+	background-color: #900;
+	border: 4px dashed #fff;
+	width: 50px;
+	height: 50px;
+	border-radius:  25px;
+	position:absolute;
+	transition: all 0.3s;
+}
+
+.pointer{
+	background-color:#444;
+	height: 70px;
+	margin-top: 30px;
+	border-bottom: 0px;
+	color:#fff;
+	font-size: 20px
+	padding: 20px;
+	text-align: center;
+}
